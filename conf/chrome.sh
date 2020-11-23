@@ -14,5 +14,6 @@ dbus-uuidgen > /etc/machine-id
 /usr/bin/chromium-browser ${EXTRA_CHROME_OPTION} \
  --kiosk \
  --no-sandbox \
+ --user-data-dir \
  --window-size=${X11_W},${X11_H} \
  "${URL}"
